@@ -1,5 +1,5 @@
 #include <iostream>
-#include "code_with_mosh/C++/part1/5) functions/8) utils/greet.hpp"
+#include "code_with_mosh/C++/part1/
 
 using namespace std;
 
