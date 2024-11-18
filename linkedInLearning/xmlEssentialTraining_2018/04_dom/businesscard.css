@@ -1,4 +1,4 @@
-BusinessCard {
+div.BusinessCard {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #DACFE5;
 	width: 300px;
@@ -9,7 +9,7 @@ BusinessCard {
 	text-align: left;
 }
 
-Name {
+div.Name {
 	color: #0D3427;
 	font-weight: bold;
 	font-size: 140%;
@@ -17,27 +17,17 @@ Name {
 	margin-bottom: 3%;
 }
 
-phone {
+div.phone {
 	font-size: 90%;
 	color: #523819;
 	font-size: 90%;
 	display: block;
 }
-phone::before {
-	content: attr(type) ": ";
-}
-phone[primary]::after {
-	content: " (" attr(primary) ")";
-}
 
-email {
+div.email {
 	color: #0D3427;
 	font-size: 90%;
 	font-weight: bold;
 	display: block;
 	margin-top: 3%;
 }
-email::before {
-	content: "email: ";
-}
-
