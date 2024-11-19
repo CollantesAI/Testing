@@ -9,6 +9,20 @@
 		var xmlData = document.getElementById("xmldata1");
 		var bizCards = xmlData.getElementsByTagName("BusinessCard");
 		
+        for (var i = 0; i < bizCards.length; i++)
+        {
+            var currentCard = bizCards[i];
+            var newCard = document.createElement("div");
+            newCard.setAttribute("class", "BusinessCard");
+
+            var newName = document.createElement("div");
+            newName.setAttribute("class", "Name");
+            var nameStr = document.currentTextNode(currentCard.getElementsByTagName( "Name")[0].firstChild.data);
+            newName.appendChild(nameStr);
+            newCard.appendChild(newName);
+
+            var phones 
+        }
     }
     
     window.addEventListener("load",createBizCards);
